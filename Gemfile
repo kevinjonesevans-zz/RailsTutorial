@@ -10,6 +10,9 @@ group :development, :test do
   gem 'rspec-rails', '2.11.0'
 end
 
+group :test do
+  gem 'capybara', '1.1.2'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
